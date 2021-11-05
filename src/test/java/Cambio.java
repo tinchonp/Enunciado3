@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Cambio {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese un número con sistema decimal");
+        System.out.println("Ingrese un número con sistema decimal: ");
         int numero = scanner.nextInt();
         String binario = " ";
         if (numero > 0) {
